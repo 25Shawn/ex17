@@ -1,0 +1,288 @@
+html, body{
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+}
+@font-face {
+    font-family:computer;
+    src: url(ressource/Computerfont.ttf);
+}
+@font-face {
+    font-family: gameplay;
+    src: url(ressource/Games-Italic.ttf);
+}
+@font-face {
+    font-family: game;
+    src: url(ressource/Gameplay.ttf);
+}
+/*///////////////////////// Barre du top Menu */
+.barreMenu{
+    display: flex;
+    background-color: black;
+    font-family: computer;
+    width: 100%;
+}
+.barreMenu i{
+    color: aliceblue;
+    font-size: 60px;
+    margin-left: 5px;
+    padding-top: 5px;
+}
+.barreMenu h2{
+    margin-left: 30px;
+    color: aliceblue;
+}
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+.barreMenu h2:hover{
+   color: lightsteelblue;
+}
+.barreMenu img{
+    width: 50px;
+}
+.icon{
+    margin-right: 0%;
+}
+/*///////////////////////// video background et autre background */
+#Background_Video{
+    height: 112vh;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+.Page_Acceuil{
+    position: relative;
+    height: 90%;
+    background-color: black;
+    z-index: 3;
+}
+.imageParallax{
+    z-index: 1;
+    background-image: url(img/matrix.webp);
+    height: 50%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imageParallax2{
+    z-index: 1;
+    background-image: url(img/matrix1.jpeg);
+    height: 50%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* ///////////// */
+/* le nom en gros (Shawn Dutil) */
+/* ///////////// */
+#MenuVideo{
+    display: flex;
+    justify-content: center;
+}
+#overlay{
+    position: absolute;
+    align-self: center;
+    text-align: center;
+}
+#overlay h1{
+    color: dimgray;
+    text-shadow: 10px 1px 10px deepskyblue;
+    font-size: 7em;
+    font-family: gameplay;
+}
+#overlay h3{
+    font-size: 2em;
+    color: dimgrey;
+    font-family: game;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+/*///////////////////////// A propos */
+.imagePropos h1{
+    font-family: computer;
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+}
+.imagePropos h3{
+    font-family: 'Roboto Mono';
+    font-size: 20px;
+    color: aliceblue;
+    float: left;
+    width: 1000px;
+    padding-top: 90px;
+    padding-left: 100px;
+}
+.imagePropos{
+    padding-top: 90px;
+}
+.img1{
+    float: right;
+    padding: 10px;
+    padding-top: 10%;
+    width: 400px;
+}
+.img2{
+    padding: 10px;
+    float: right;
+    width: 200px;
+    border-radius: 10%;
+}
+.img3{
+    padding: 10px;
+    float: right;
+    padding-top: 8%;
+    width: 250px;
+}
+.img4{
+    width: 250px;
+    float: right;
+    margin-left: 1000px;
+}
+.imagePropos i{
+    font-size: 3em;
+    color: aliceblue;
+    float: left;
+    padding-top: 20%;
+    margin-left: 10px;
+}
+/*///////////////////////// Realisation */
+#Page_Acceuil2{
+    position: relative;
+    padding-top: 40px;
+    background-color: black;
+    height: 100%;
+}
+.imageRealisation h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: computer;
+    color: aliceblue;
+}
+.imageRealisation h2{
+    font-family: 'Roboto Mono';
+    padding-left: 20px;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 30px;
+}
+.image0{
+    width: 400px;
+    float: right;
+    padding-top: 15%;
+    
+}
+.image1{
+    padding: 10px;
+    width: 500px;
+    float: right;
+    padding-top: 0%;
+}
+.image2{
+    padding: 20px;
+    width: 400px;
+    float: right;
+    padding-top: 25%;
+}
+.image3{
+    padding: 20px;
+    width: 400px;
+    float: right;
+    padding-top: 20%;
+}
+#a h1{
+    padding-top: 50px;
+    font-family: game;
+    font-size: 20px;
+}
+#a h1:hover{
+    color: darkgreen;
+}
+.imageRealisation i{
+    font-size: 3em;
+    color: aliceblue;
+    float: left;
+    padding-top: 38%;
+    margin-left: 10px;
+}
+/*///////////////////////// Contact */
+#PageAcceuil3{
+    background-color: black;
+    height: 90%;
+}
+#cont{
+    color: aliceblue;
+    padding-top: 10px;
+}
+#cont h1{
+    font-family: computer;
+    text-align: center;
+    font-size: 50px;
+}
+#cont a{
+    display: flex;
+    font-family: gameplay;
+    color: aliceblue;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 30px;
+}
+#iconeContact{
+    display: flex;
+    padding-top: 60px;
+    justify-content: center;
+
+}
+a i{
+    font-size: 2em;
+    padding: 30px;
+}
+a i:hover{
+    color: lightskyblue;
+    transform: scale(2) rotateZ(40deg) translateY(10px);
+}
+#i{
+    font-size: 3em;
+    color: aliceblue;
+    float: left;
+    padding-top: 5%;
+    margin-left: 10px;
+}
+#formulaire{
+    margin-top: 10%;
+    margin-left: 41%;
+    width: 350px;
+    font-size: 2em;
+}
+#bouton{
+   margin-left: 40%;
+}
+
+@font-face {
+    font-family: display;
+    src: url(ressource/digital\ display\ tfb.ttf);
+}
+#horloge{
+    font-family: display;
+    padding-left: 27%;
+    font-size: 60px;
+    width: 850px;
+    color: aliceblue;
+    animation-name: change_color;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+}
+@keyframes change_color {
+    0%{color: lightblue;}
+    25%{color: lightskyblue;}
+    50%{color: cyan;}
+    75%{color: lightskyblue;}
+    100%{color: lightblue;}
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez le portefolio d'un étudiant à la matrix. De plus, ce portefolio, est 100% fait par l'étudiant, il n'a pas utiliser de maquette d'un portefolio déja fait. Également, il est dans sa première session de cégep.">
+    <meta name="robots" content="noimageindex">
+    <meta property="og:site_name" content="Portefolio à la matrix"/>
+    <meta property="og:title" content="Portefolio à la matrix">
+    <!-- <meta property="og:url" content=""> -->
+    <meta property="og:description" content="Création d'un étudiant du cégep." />
+    <!-- <meta property="og:image" content="" /> -->
+    <!-- <meta name="twitter:card" content="" /> -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <script src="https://kit.fontawesome.com/e538d494e4.js" crossorigin="anonymous"></script>
+    <title>Portfolio 2.0</title>
+</head>
+<!-- css Parallax effect -->
+<body>
+    <title>Portefolio à la matrix</title>
+    <div class="barreMenu">
+        <a href="#Propos"><h2>À propos de moi</h2></a>
+        <a href="#Realisation"><h2>Réalisation</h2></a>
+        <a href="#contact"><h2>Contact</h2></a>
+        <div id="horloge"></div>
+        <div class="icon">
+            <i class="fa-brands fa-css3-alt"></i>
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-js"></i>
+        </div>
+    </div>
+    
+    <div id="MenuVideo">
+        <video id="Background_Video" src="video/video.mov" muted loop autoplay></video>
+        <div id="overlay">
+            <h1>Shawn Dutil</h1>
+            <h3>Etudiant en Technique de l'informatique</h3>
+        </div>  
+        
+    </div>
+    
+    <div class="Page_Acceuil">
+
+        <div id="Apropos">
+            
+            <div class="imagePropos">
+                <h1 id="Propos">À propos</h1>
+                <hr>
+                <h3>Je suis une personne très passionné par les jeux vidéos , les lego et par l'informatique. De plus, je suis une personne de très déterminer et persévérante dans ce que j'aime. </h3>
+                <img class="img1"src="img/jeu.jpeg" alt="">
+                <img class="img2" src="img/video games.jpeg" alt="">
+                <img class="img3" src="img/informatique.jpeg" alt="">
+                <img class="img4" src="img/lego.jpeg" alt="">
+                <i class="fa-solid fa-microchip"></i>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="imageParallax2"></div>
+
+    <div id="Page_Acceuil2">
+        
+        <div id = "creation">
+           
+            <div class = "imageRealisation">
+                <h1 id="Realisation">Réalisation</h1>
+                <hr>
+                <h2>Voici mes réalisations que je suis le plus fier :</h2>
+                <img class="image0"src="img/Capture d’écran, le 2022-11-06 à 14.45.39.png" alt="">
+                <img class="image1"src="img/Capture d’écran, le 2022-11-06 à 14.52.14.png" alt="">
+                <img class="image2"src="img/Capture d’écran, le 2022-11-06 à 14.54.40.png" alt="">
+                <img class="image3"src="img/Capture d’écran, le 2022-11-10 à 14.21.15.png" alt="">
+                <i class="fa-solid fa-microchip"></i>
+            </div>
+            
+        </div>
+        
+
+    </div>
+    
+    <div class="imageParallax"></div>
+
+    <div id="PageAcceuil3">
+
+        <div id="con">
+            <div id="cont">
+                <h1 id="contact" >Contact</h1>
+                <hr>
+                <a href="mailto:2238577@etudiant.cegepvicto.ca">Omnivox</a>
+                <a href="mailto:Shawndutil25@gmail.com">Gmail</a>
+                <form id="formulaire" method="post" action="mailto:shawndutil@icloud.com">
+                    <fieldset>
+                        <legend>Entre ton nom</legend>
+                        <label for="nom">Nom</label>
+                        <input type="text" name="nom" id="nom" required>
+    
+                        <label for="Prenom">Prenom</label>
+                        <input type="text" name="Prenom" id="Prenom" required>
+                    </fieldset>
+                    
+
+                    <button id="bouton"type="submit">Envoyer</button>
+                </form>
+                <div id="iconeContact">
+                    <a href="https://github.com/25Shawn"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/dutilshawn/?next=%2F&hl=fr"><i class="fa-brands fa-instagram" ></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100009954545687"><i class="fa-brands fa-facebook" ></i></a>
+                    <a href="https://www.tiktok.com/@dutilshawn?lang=fr"><i class="fa-brands fa-tiktok" ></i></a>
+                </div>
+                <i id= "i"class="fa-solid fa-microchip"></i>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
